@@ -107,6 +107,7 @@
                         <segue destination="sRk-Ii-gj3" kind="relationship" relationship="viewControllers" id="qK3-9z-DTD"/>
                         <segue destination="pTZ-1H-Mwk" kind="relationship" relationship="viewControllers" id="dqc-HI-4qz"/>
                         <segue destination="yRR-yw-Pbw" kind="relationship" relationship="viewControllers" id="il3-h8-WFk"/>
+                        <segue destination="6iF-a0-tNM" kind="relationship" relationship="viewControllers" id="T1c-Ae-Z43"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FEF-Gg-68m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -129,7 +130,7 @@
             </objects>
             <point key="canvasLocation" x="1514" y="329"/>
         </scene>
-        <!--Athletic Profile-->
+        <!--Search-->
         <scene sceneID="sjE-1B-kjf">
             <objects>
                 <viewController id="yRR-yw-Pbw" sceneMemberID="viewController">
@@ -139,11 +140,27 @@
                         <viewLayoutGuide key="safeArea" id="rFu-bp-0dX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Athletic Profile" id="j1W-oT-BjP"/>
+                    <tabBarItem key="tabBarItem" title="Search" id="j1W-oT-BjP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZ7-zF-E4T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1514" y="1037"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="SBh-mF-pBa">
+            <objects>
+                <viewController id="6iF-a0-tNM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="byZ-jf-4du">
+                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="w3r-Yl-gEM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profile" id="ddb-Xg-zgu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mCI-D5-Q2E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1514" y="1800"/>
         </scene>
     </scenes>
     <resources>
